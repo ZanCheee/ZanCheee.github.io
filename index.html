@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
+   
+</head>
+
+<header>
+    <a href="#" class="logo">Portfolio</a>
+
+    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+
+    <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact-me">Contact</a>
+        
+
+        <div class="close-btn" onclick="toggleMenu()">Close</div>
+    </nav>
+</header>
+    <section class="home">
+        <div class="home-img">
+            <img src="img/aisan0.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Aisan</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>I’m glad you’re here! Thank you for looking through my portfolio. I’m enthusiastic about the chance to
+                collaborate and explore new ideas.Don’t hesitate to reach out if you want to chat!.</p>
+            <div class="social-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="#contact-me" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <p class="section_text_p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+            </div>
+            <div class="about-details-container">
+                <div class="text-container">
+                  <h2 class="about-text">Hello! I'm Aisan Luis M. Nauca</h2>
+                </div>
+                <div class="text-container-2">
+                  <p class="p-container">An IT student who is passionate for exploring cutting edge technologies and building efficient software solutuon. With a strong foundation in web development and a growing interest in front end technologies, I'm eager to continue my skills and knowledge to the tech industry.</p>
+                </div>
+                <hr class="line-cont">
+                <div class="about-details-container">
+                   <div class="about-containers">
+                       <div class="details-container">
+                         
+                          <h3>Name:</h3>
+                          <p>Aisan Luis M. Nacua</p>
+                          <h3>Age:</h3>
+                          <p>19</p>
+                          <h3>Birthday:</h3>
+                          <p>August 31, 2005</p>
+                    </div>
+                     <div class="details-container">
+                        
+                         <h3>From:</h3>
+                         <p>Philippines</p>
+                         <h3>Status:</h3>
+                         <p>Student</p>
+                         <h3>Hobbies:</h3>
+                         <p>Gaming, Music, hold Her hand ☺</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <h1 class="HSE">Education</h1>
+            <div class="education"> 
+                <div class="education-item">
+                <img class="education-img" src="img/elementary.png" alt="Item 1">
+                </div>
+    
+                <div class="education-item">
+                    <img class="education-img" src="img/HighSchool.jpg" alt="Item 1">
+                </div>
+    
+                    <div class="education-item">
+                        <img class="education-img" src="img/nmsc.png   " alt="Item 1">
+                    </div>
+            </div>
+
+    </section>
+
+      <section id="skills">
+        <h1 class="HS">Skills</h1>
+        <div class="skills"> 
+            <div class="flex-item">
+                <img class="Skills-img" src="img/html.jpg" alt="Item 2">
+            </div>
+            <div class="flex-item">
+                <img class="Skills-img" src="img/css.jpg" alt="Item 3">
+            </div>
+            <div class="flex-item">
+                <img class="Skills-img" src="img/js.jpg" alt="Item 4">
+            </div>
+            <div class="flex-item">
+                <img class="Skills-img" src="img/figma.jpg" alt="Item 1">
+            </div>
+        </div>
+      </section>  
+
+    <section id="contact-me" class="contact-me">
+        <div class="container">
+            <h1 class="contact-header">Contact Me</h1>
+            <p>If you’d like to get in touch, feel free to drop a message below!</p>
+            <form action="submit-form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name :</label>
+                    <input class="form-group-h" type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email :</label>
+                    <input class="form-group-h" type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message :</label>
+                    <textarea class="form-group-h" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
